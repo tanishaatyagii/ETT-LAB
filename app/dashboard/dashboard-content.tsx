@@ -11,6 +11,7 @@ import {
   Loader2,
   AlertCircle,
   CheckCircle,
+  MessageSquare,
 } from "lucide-react";
 import Link from "next/link";
 import { useRef, useState, useEffect, useCallback } from "react";
@@ -292,6 +293,14 @@ export function DashboardContent({ user }: DashboardContentProps) {
                           {doc.status}
                         </span>
                       </div>
+                      {doc.status === "ready" && (
+                        <Link href={`/document/${doc._id}`}>
+                          <Button variant="outline" size="sm">
+                            <MessageSquare className="mr-2 h-4 w-4" />
+                            Chat
+                          </Button>
+                        </Link>
+                      )}
                       <Button
                         variant="ghost"
                         size="sm"
