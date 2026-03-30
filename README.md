@@ -85,7 +85,7 @@ A document-centric chat application where users upload PDF documents and chat wi
 - ✅ Protected routes with middleware
 - ✅ User management with MongoDB
 - ✅ Clean, minimal UI
-- ✅ Dashboard placeholder
+- ✅Dashboard for managing files
 
 ### Upcoming Phases
 
