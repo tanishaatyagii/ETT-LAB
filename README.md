@@ -89,10 +89,10 @@ A document-centric chat application where users upload PDF documents and chat wi
 
 ### Upcoming Phases
 
-- [ ] PDF document upload and storage
-- [ ] Document processing and embedding
-- [ ] AI-powered chat with document context
-- [ ] Chat history management
+- [x] PDF document upload and storage
+- [x] Document processing and embedding
+- [x] AI-powered chat with document context
+- [x] Chat history management
 
 ## Authentication Setup
 
