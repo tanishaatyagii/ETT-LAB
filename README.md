@@ -94,23 +94,7 @@ A document-centric chat application where users upload PDF documents and chat wi
 - [x] AI-powered chat with document context
 - [x] Chat history management
 
-## Authentication Setup
 
-### GitHub OAuth
-
-1. Go to [GitHub Developer Settings](https://github.com/settings/developers)
-2. Create a new OAuth App
-3. Set Homepage URL to `http://localhost:3000`
-4. Set Authorization callback URL to `http://localhost:3000/api/auth/callback/github`
-5. Copy Client ID and Client Secret to `.env.local`
-
-### Google OAuth
-
-1. Go to [Google Cloud Console](https://console.cloud.google.com/apis/credentials)
-2. Create a new OAuth 2.0 Client ID
-3. Add `http://localhost:3000` to Authorized JavaScript origins
-4. Add `http://localhost:3000/api/auth/callback/google` to Authorized redirect URIs
-5. Copy Client ID and Client Secret to `.env.local`
 
 ## Scripts
 
@@ -119,6 +103,4 @@ A document-centric chat application where users upload PDF documents and chat wi
 - `npm run start` - Start production server
 - `npm run lint` - Run ESLint
 
-## License
 
-MIT
